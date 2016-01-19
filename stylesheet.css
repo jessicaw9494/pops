@@ -1,16 +1,21 @@
 
 html {
     height: 100%;
-    width:100%;
+    width: 100%;
     background: radial-gradient(circle, white, #00C9AB);
+    
 }
 
 h1{
     text-align: center;
+}
+    
+#lollipop hover{
+    width: 100%;
+    height:100%;
+ 
 
-
-
-
-
-
+    
+    
+    
 }
