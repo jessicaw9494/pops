@@ -23,11 +23,13 @@ h1{
 
 }
 #must {
-    
-    
-text-align: center;
-transform: rotateX(150deg);
-    transform: rotateZ(150deg);
+
+   transition: width 2s, height 2s, transform 2s;
+   position: absolute;
+    left: 260px;
+    bottom: 280px;
+   
+ 
 
    
 
