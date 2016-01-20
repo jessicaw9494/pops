@@ -18,21 +18,34 @@ text-align: center;
     width: 100%;
 }
 #must {
+   
+    
   transition: width 2s, height 2s, transform 2s;
+  transform:rotateZ(-360deg);
+   transition-delay: 1s;
    position: absolute;
     left: 310px;
     bottom: 250px;
-   
+    
+    
+     
  
-
-   
-
 }
 
 #glasses{
     position: absolute;
     right: 1220px;
     top:250px;
+}
+
+#hat{
+   transition: width 2s, height 2s, transform 2s;
+   transform:rotateY(-360deg);
+   position:absolute;
+   top:10px;
+   left:90px;
+  
+  
 }
 
 
