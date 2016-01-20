@@ -18,15 +18,10 @@ text-align: center;
 }
 
 #must {
-   
-    
-  transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s;
   transform:rotateZ(-360deg);
    transition-delay: 1s;
-   position: absolute;
-    left: 310px;
-    bottom: 250px;
-
+       transform: translate(870px, -600px);
 }
 
 #glasses{
