@@ -42,12 +42,13 @@ text-align: center;
 }
 
 #hat{
-    transform: rotatez(360deg);
+   
      transition-delay:2s;
    transition: width 2s, height 2s, transform 2s;
    position:absolute;
    top:10px;
    left:1px;
+   transform: skewX(20deg);
 }
 
 
