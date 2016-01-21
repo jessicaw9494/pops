@@ -17,13 +17,17 @@ h1{
 text-align: center;
 }
 
+
 #must {
+       
+transform:rotateZ(-360deg);
+transition-delay:4s;
  position:absolute;
    left:780px;
   top:295px;
- transition-duration: 2s;
-  transition-property: width 2px height 3px;
-  transform:rotateZ(360deg);
+   
+    
+
 
 }
 
