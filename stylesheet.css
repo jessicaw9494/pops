@@ -1,3 +1,41 @@
-body { 
-    background: #FF2B2B;
+
+html {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, white, #00C9AB);
+    
 }
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 10px #000000;
+    font-size: 50px;
+}
+
+#lollipop{
+text-align: center;
+}
+
+#must {
+    transition: width 2s, height 2s, transform 2s;
+  transform:rotateZ(-360deg);
+   transition-delay: 1s;
+       transform: translate(870px, -600px);
+}
+
+#glasses{
+    transform: translate(160px, -690px);
+}
+
+#hat{
+   transition: width 2s, height 2s, transform 2s;
+   transform:rotateY(-360deg);
+   position:absolute;
+   top:10px;
+   left:90px;
+  
+  
+}
+
+
