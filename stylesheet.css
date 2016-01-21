@@ -21,6 +21,11 @@ text-align: center;
     transition: width 2s, height 2s, transform 2s;
   transform:rotateZ(-360deg);
          transition-delay: 1s;
+ position:absolute;
+   left:700px;
+   top:295px;
+ transition-duration: 2s;
+  transition-property: width 2px height 3px;
 }
 
 #glasses{
