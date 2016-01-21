@@ -18,18 +18,14 @@ text-align: center;
 }
 
 #must {
-<<<<<<< HEAD
-    transition: width 2s, height 2s, transform 2s;
-  transform:rotateZ(-360deg);
-transition-delay: 1s;
 
-=======
+
  position:absolute;
    left:780px;
    top:295px;
  transition-duration: 2s;
   transition-property: width 2px height 3px;
->>>>>>> 33e59ef5eb505b45abaf11ee81922fcd084548d4
+
 }
 
 #glasses{
