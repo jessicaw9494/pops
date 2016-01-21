@@ -30,6 +30,9 @@ text-align: center;
 
 
 }
+#must:hover{
+    transform: rotateY(360deg);
+}
 
 #glasses{
     position: absolute;
@@ -55,6 +58,9 @@ text-align: center;
    top:10px;
    left:1px;
    transform: skewX(20deg);
+
 }
 
-
+#hat:hover{
+    transform: skewX(200deg);
+}
