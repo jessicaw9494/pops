@@ -24,6 +24,9 @@ text-align: center;
  transition-duration: 2s;
   transition-property: width 2px height 3px;
 }
+#must:hover{
+    transform: rotateY(360deg);
+}
 
 #glasses{
     position: absolute;
@@ -35,20 +38,22 @@ text-align: center;
 }
 @keyframes glass { /*moves the glasses image go up and down*/
     0%   {background: left:0px; top:0px;}
-    25%  {background: left:200px; top:0px;}
+    25%  {background: left:200px; top:0px;}``
     50%  {background: left:200px; top:300px;}
     75%  {background: left:0px; top:300px;}
     100% {background:left:0px; top:0px;}
 }
 
 #hat{
-   
+  
      transition-delay:2s;
    transition: width 2s, height 2s, transform 2s;
    position:absolute;
-   top:10px;
-   left:1px;
-   transform: skewX(20deg);
+   top:100px;
+   left:1300px;
+   
 }
 
-
+#hat:hover{
+    transform: skewX(200deg);
+}
