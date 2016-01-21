@@ -18,12 +18,12 @@ text-align: center;
 }
 
 #must {
-
  position:absolute;
    left:780px;
-   top:295px;
+  top:295px;
  transition-duration: 2s;
   transition-property: width 2px height 3px;
+  transform:rotateZ(360deg);
 
 }
 
