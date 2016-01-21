@@ -18,11 +18,16 @@ text-align: center;
 }
 
 #must {
-    transition: width 2s, height 4s;
-   position:absolute;
-   right:400px;
-   bottom:100px;
-   transform:rotateZ(-360deg);
+  
+ position:absolute;
+   left:700px;
+   top:280px;
+    transition-property: width 2px height 3px;
+    transition-duration: 2s;
+    
+
+  
+   
   
     
 }
