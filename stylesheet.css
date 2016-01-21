@@ -11,6 +11,7 @@ h1{ /*text description*/
     text-align: center;
     text-shadow: 1px 1px 10px #000000;
     font-size: 70px;
+    font-family: Oswald;
 }
 
 #lollipop{ /*put lollipop to center*/
