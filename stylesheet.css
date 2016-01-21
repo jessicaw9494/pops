@@ -18,15 +18,14 @@ text-align: center;
 }
 
 
+ 
+    
 #must {
-       
-transform:rotateZ(-360deg);
-transition-delay:4s;
  position:absolute;
    left:780px;
-  top:295px;
-   
-    
+   top:295px;
+ transition-duration: 2s;
+  transition-property: width 2px height 3px;
 
 
 }
@@ -34,19 +33,26 @@ transition-delay:4s;
 #glasses{
     position: absolute;
     top: 290px;
-    left:170px;
-        animation-duration: 4s;
+    left:170px; 
+    animation-name: glass;
+    animation-duration: 4s;
     animation-iteration-count: 3;
+}
+@keyframes glass { /*moves the glasses image go up and down*/
+    0%   {background: left:0px; top:0px;}
+    25%  {background: left:200px; top:0px;}
+    50%  {background: left:200px; top:300px;}
+    75%  {background: left:0px; top:300px;}
+    100% {background:left:0px; top:0px;}
 }
 
 #hat{
+    transform: rotatez(360deg);
+     transition-delay:2s;
    transition: width 2s, height 2s, transform 2s;
-   transform:rotatez(-360deg);
    position:absolute;
    top:10px;
    left:1px;
-  
-  
 }
 
 
