@@ -1,40 +1,34 @@
 
-html {
+html { /*resize the background*/
     height: 100%;
     width: 100%;
     background: radial-gradient(circle, white, #00C9AB);
     
 }
 
-h1{
+h1{ /*text description*/
     color: white;
     text-align: center;
     text-shadow: 1px 1px 10px #000000;
     font-size: 70px;
 }
 
-#lollipop{
+#lollipop{ /*put lollipop to center*/
 text-align: center;
 }
 
-
- 
-    
-#must {
-  transition-delay:2s;
-   transition: width 2s, height 2s, transform 2s;
-   position:absolute;
-   top:295px;
+#must { /*mustache position*/
+ position:absolute;
    left:780px;
-   transform: rotateY(360deg);
-
-
+   top:295px;
+ transition-duration: 2s;
+  transition-property: width 2px height 3px;
 }
-#must:hover{
+#must:hover{ /*mustache rotate when hovered*/
     transform: rotateY(360deg);
 }
 
-#glasses{
+#glasses{ /*glasses position*/
     position: absolute;
     top: 290px;
     left:170px; 
@@ -44,23 +38,22 @@ text-align: center;
 }
 @keyframes glass { /*moves the glasses image go up and down*/
     0%   {background: left:0px; top:0px;}
-    25%  {background: left:200px; top:0px;}
+    25%  {background: left:200px; top:0px;}``
     50%  {background: left:200px; top:300px;}
     75%  {background: left:0px; top:300px;}
     100% {background:left:0px; top:0px;}
 }
 
-#hat{
-   
+#hat{ /*hat position*/
+  
      transition-delay:2s;
    transition: width 2s, height 2s, transform 2s;
    position:absolute;
-   top:10px;
-   left:1px;
-   transform: skewX(20deg);
-
+   top:100px;
+   left:1300px;
+   
 }
 
-#hat:hover{
+#hat:hover{ /*skews hat when hovered*/
     transform: skewX(200deg);
 }
