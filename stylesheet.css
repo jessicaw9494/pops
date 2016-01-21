@@ -10,7 +10,7 @@ h1{
     color: white;
     text-align: center;
     text-shadow: 1px 1px 10px #000000;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 #lollipop{
@@ -20,12 +20,19 @@ text-align: center;
 #must {
     transition: width 2s, height 2s, transform 2s;
   transform:rotateZ(-360deg);
+<<<<<<< HEAD
    transition-delay: 1s;
        
+=======
+         transition-delay: 1s;
+>>>>>>> 97e7ad6a65ca48ce32ec9db8987cfa5f75cb2374
 }
 
 #glasses{
-    transform: translate(160px, -690px);
+    position: absolute;
+    top: 290px;
+    left:170px;
+    
 }
 
 #hat{
