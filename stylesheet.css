@@ -20,12 +20,8 @@ text-align: center;
 #must {
     transition: width 2s, height 2s, transform 2s;
   transform:rotateZ(-360deg);
-<<<<<<< HEAD
-   transition-delay: 1s;
-       
-=======
-         transition-delay: 1s;
->>>>>>> 97e7ad6a65ca48ce32ec9db8987cfa5f75cb2374
+transition-delay: 1s;
+
 }
 
 #glasses{
@@ -37,7 +33,7 @@ text-align: center;
 
 #hat{
    transition: width 2s, height 2s, transform 2s;
-   transform:rotateY(-360deg);
+   transform:rotatez(360deg);
    position:absolute;
    top:10px;
    left:90px;
