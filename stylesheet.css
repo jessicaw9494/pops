@@ -7,7 +7,7 @@ html { /*resize the background*/
 }
 
 h1{ /*text description*/
-    color: white;
+    color: blue;
     text-align: center;
     text-shadow: 1px 1px 10px #000000;
     font-size: 70px;
@@ -16,6 +16,7 @@ h1{ /*text description*/
 
 #lollipop{ /*put lollipop to center*/
 text-align: center;
+
 }
 
 #must { /*mustache position*/
