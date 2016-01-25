@@ -15,9 +15,11 @@ h1{ /*text description*/
 }
 
 #lollipop{ /*put lollipop to center*/
-text-align: center;
+
+ text-align: center;
 
 }
+
 
 #must { /*mustache position*/
  position:absolute;
